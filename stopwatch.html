@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/01f0b58db1.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+  </head>
+  <body>
+    <div class="spacer"></div>
+    <button class="control-buttons dark setting" onclick="setting_toggle()" id="setting_toggle"><i class="fa-solid fa-gear"></i></button>
+    <div id="settings" class="settingspanel">
+    </div>
+    <div class="text" style="font-size: x-large;">
+        <input class="title" type="text" value="Stopwatch" maxlength="15" id="title">
+    </div>
+    
+    <div class="time" id="time">
+      <input class="outputs left" value="0" type="number" id="hour" name="min" min="0" max="60" disabled/>
+      :
+      <input class="outputs left" value="0" type="number" id="min" name="min" min="0" max="60" />
+      : 
+      <input class="outputs right" value="00" type="number" id="sec" name="sec" min="0" max="59" />
+    </div>
+    <!-- <div class="control">
+      <button id="menu_toggle" class="button toggle" onclick="menu_toggle()"><i class="fa-solid fa-chevron-up"></i></button>
+    </div> -->
+    <div id="menu">
+      <div class="control">
+        
+        <div class="small"></div>
+          <button class="control-buttons light wide" onclick="toggle()" id="startStop"><i class="fa-solid fa-play"></i></button>
+          <button class="control-buttons light wide" onclick="reset()"><i class="fa-solid fa-rotate-left"></i></button>
+          <div class="small"></div>
+          <div class="small"></div>
+          <div id="actions">
+          </div>
+
+
+      </div>
+    </div>
+    <!-- <a href="index2.html" style="text-decoration: none; color: wheat; font-size: 10px;">Found a bug or have a request</a> -->
+    <script src="stopwatch.js"></script>
+  </body>
+</html>

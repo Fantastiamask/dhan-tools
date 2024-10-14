@@ -1,0 +1,204 @@
+body{
+  background-color: #131313;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: wheat;
+  font-size: small;
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.spacer{
+  padding-bottom: 30px;
+  -webkit-app-region: drag;
+}
+.time{
+  width: 180px;
+  margin: auto;
+  height: 40px;
+  background-color: #414141;
+  text-align: center;
+  /* vertical-align: middle; */
+  /* padding-top: 3px; */
+  border-radius: 200px;
+  font-size: large;
+}
+.button{
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: none;
+  color: wheat;
+}
+.text{
+  width: 150px;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  border-radius: 200px;
+  font-size: larger;
+}
+.text_duration{
+  width: 300px;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  border-radius: 200px;
+  font-size: larger;
+}
+.control{
+  width: 300px;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  border-radius: 200px;
+  font-size: larger;
+}
+.settingspanel{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  border-radius: 200px;
+  font-size: larger;
+}
+
+.inputs{
+  /* border-radius: 50px; */
+  height: 20px;
+  width: 50px;
+  background-color: #414141;
+  border-style: none;
+  color: wheat;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.outputs{
+  margin-top: 2px;
+  border-radius: 50px;
+  width: 40px;
+
+  height: 30px;
+  background-color: #414141;
+  border-style: none;
+  color: wheat;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: larger;
+  text-align: center;
+
+}
+.dark{
+  background-color: #131313;
+}
+.right{
+  padding-right: 6px;
+}
+
+.left{
+  padding-right: 6px;
+
+
+}
+.setting{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.light{
+  background-color: #414141;
+}
+.control-buttons{
+
+  color: wheat;
+  height: 30px;
+  width: 50px;
+  border-style: none;
+  border-radius: 20px;
+  
+}
+.wide{
+  width: 80px;
+}
+.extrawide{
+  width: 100px;
+}
+
+.small{
+  margin-bottom: 10px;
+}
+.title{
+  border-radius: 50px;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  background-color: #131313;
+  border-style: none;
+  color: wheat;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: large;
+}
+
+#sounds{
+  background-color: #414141;
+  color: wheat;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #414141;
+}
+
+#preset{
+  background-color: #414141;
+  color: wheat;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #414141;
+
+}
+
+.blue{
+  background-color: #4F8DB4;
+  border-color: #4F8DB4;
+}
+
+.red{
+  background-color: #362711;
+  border-color: #362711;
+  border-style: none;
+}
+.grey{
+  background-color: #414141;
+  border-color: #414141;
+  border-style: none;
+}
+.wheat{
+  background-color: wheat;
+  border-color: wheat;
+}
+
+.toggle{
+  background-color: #131313;
+  color: wheat;
+  border-style: none;
+}
+
+#letknow{
+  margin-top: 10px;
+  height: 100px;
+  width: 300px;
+  vertical-align: text-top;
+}
+
